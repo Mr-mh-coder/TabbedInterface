@@ -1,0 +1,57 @@
+html{
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1280' height='1000' preserveAspectRatio='none' viewBox='0 0 1280 1000'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1787%26quot%3b)' fill='none'%3e%3crect width='1280' height='1000' x='0' y='0' fill='url(%23SvgjsLinearGradient1788)'%3e%3c/rect%3e%3cpath d='M1280 0L1102.87 0L1280 192.63z' fill='rgba(255%2c 255%2c 255%2c .1)'%3e%3c/path%3e%3cpath d='M1102.87 0L1280 192.63L1280 592.8199999999999L893.0899999999999 0z' fill='rgba(255%2c 255%2c 255%2c .075)'%3e%3c/path%3e%3cpath d='M893.09 0L1280 592.8199999999999L1280 655.0799999999999L797.33 0z' fill='rgba(255%2c 255%2c 255%2c .05)'%3e%3c/path%3e%3cpath d='M797.33 0L1280 655.0799999999999L1280 720.7499999999999L460.28000000000003 0z' fill='rgba(255%2c 255%2c 255%2c .025)'%3e%3c/path%3e%3cpath d='M0 1000L481.98 1000L0 766.71z' fill='rgba(0%2c 0%2c 0%2c .1)'%3e%3c/path%3e%3cpath d='M0 766.71L481.98 1000L701.38 1000L0 401.1z' fill='rgba(0%2c 0%2c 0%2c .075)'%3e%3c/path%3e%3cpath d='M0 401.1L701.38 1000L1025.57 1000L0 291.02000000000004z' fill='rgba(0%2c 0%2c 0%2c .05)'%3e%3c/path%3e%3cpath d='M0 291.02L1025.57 1000L1128.3 1000L0 142.36999999999998z' fill='rgba(0%2c 0%2c 0%2c .025)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1787'%3e%3crect width='1280' height='1000' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='5.47%25' y1='-7%25' x2='94.53%25' y2='107%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1788'%3e%3cstop stop-color='%230e2a47' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(91%2c 251%2c 129%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+    background-attachment:fixed;
+	background-size: cover;
+}	
+body, ul, li, p {
+	padding: 0;
+	margin: 0;
+}
+body { 
+	padding: 100px 0; 
+	background:rgb(85B09B);
+	font-family:Arial; 
+	color:rgb(6, 11, 9); 
+}
+p{
+	line-height: 1.5em;
+	margin-bottom: 1em;
+}
+#tabs{
+	max-width: 408px;
+	margin:auto;
+	
+}
+#tabs > ul{
+	display: flex;
+	list-style-type: none;
+}
+#tabs > ul > li > a {
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	margin-right: 2px;
+	background: #a2a2a2a7;
+	color: #cce8a7;
+	text-decoration: none;
+	padding: 0 15px;
+	border-radius: 3px 3px 0 0;
+}
+#tabs > div {
+	padding: 15px;
+    background: rgba(152, 213, 137, 0.404);
+	transition: opacity 200ms linear;
+}
+#tabs .active{
+	background:  rgba(152, 213, 137, 0.404);
+	color:rgb(6, 11, 9);
+}
+#tabs .visuallyhidden{
+	opacity: 0;
+}
+#tabs .hidden{
+	display: none;
+}
+#tabs .visible{
+	display: block;
+}
